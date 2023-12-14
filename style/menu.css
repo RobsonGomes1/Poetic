@@ -75,7 +75,7 @@ header{
 
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   align-items: center;
   flex-wrap: wrap;
   background-color: rgba(100, 100, 100, 0.715);
@@ -120,7 +120,7 @@ header{
 
 .menu{
   display: flex;
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .menu li {
