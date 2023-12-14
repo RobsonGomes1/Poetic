@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+
+*::-webkit-scrollbar {
+  height: 9px;
+  width: 9px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: #D28C46;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #C2784E;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #C2966A;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #AE0000;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #BA4545;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #A34C4C;
+}
+
+@font-face {
+  font-family: 'AutumnFlowers';
+  src: url('/Fonts/AutumnFlowers.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root{
+
+  --color1:#D9C7B8;
+  --color2: #D9965B ;
+  --color3:#BF6836 ;
+  --color4:#73321A ;
+  
+  --fonte1:"AutumnFlowers", 'Times New Roman','Courier New'
+  
+
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body, html, ul, li{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.1em;
+
+}
+
+body{
+  background-color: var(--color1);
+}
+
+header{
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(100, 100, 100, 0.715);
+  box-shadow: 3px 10px 19px -6px rgba(0,0,0,0.87);
+  -webkit-box-shadow: 3px 10px 19px -6px rgba(0,0,0,0.87);
+  -moz-box-shadow: 3px 10px 19px -6px rgba(0,0,0,0.87);
+}
+
+.logo a{
+  color: black;
+  text-decoration: none;
+  font-size: 1.4em;
+  
+}
+
+.logo p {
+  color: rgb(0, 0, 0);
+  font-size: 1.1em;
+  margin-top: 10px;
+  padding-left: 18px;
+  padding-bottom: 20px;
+  font-family: "AutumnFlowers";
+
+}
+
+.imglogo{
+  width: 50px;
+  height: 40px;
+  flex-wrap: wrap;
+  padding-right:10px ;
+  align-items: center;
+  display: inline-block;
+  margin-right: 5px;
+
+}
+
+.menu a{
+  text-decoration: none;
+  color: aliceblue;
+
+}
+
+.menu{
+  display: flex;
+  padding-top: 80px;
+}
+
+.menu li {
+  margin-left: 20px;
+  font-size: 0.9em;
+  
+}
+
+
+.menu li a {
+
+  display: block;
+  padding: 18px;
+  background-color: var(--color2);
+  border-radius: 50px;
+  box-shadow: 3px 11px 8px -10px rgba(0,0,0,0.44);
+  -webkit-box-shadow: 3px 11px 8px -10px rgba(0,0,0,0.44);
+  -moz-box-shadow: 3px 11px 8px -10px rgba(0,0,0,0.44);
+
+}
+
+.menu li :hover{
+  background-color: var(--color3);
+  transition: 0.2s;
+  
+}
+
+.menu a:hover{
+ color: var(--color4);
+}

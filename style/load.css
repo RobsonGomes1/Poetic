@@ -10,29 +10,23 @@ body,html{
   background-color: black;
 }
 
-.container{
-  width: 100%;
+
+
+video{
   height: 100vh;
-  display: flex;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-position: right center;
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70%;
+   width: 100vw;
 }
 
-.back video {
 
-position: relative;
-width: 100vw;
-height: 100vh;
-object-fit: cover;
-display: flex;
 
-}
 
+
+
+
+/* 
 @media (min-width: 0px) and (max-width: 576px) { 
 
  .back video{
@@ -110,4 +104,4 @@ display: flex;
 
 }
 
-
+ */
