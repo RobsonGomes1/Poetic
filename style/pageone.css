@@ -86,55 +86,6 @@
 
 
 
-.p1  {
-
-    color: var(--color5);
-    display: block;
-    line-height: 1.5em;
-
-}
-
-
-
-#backgroundautor1{
-
-    background-image: url(/img/vinicius-de-moraes.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    border-radius: 16px;
-    margin-left: 20px;
-    margin-top: 3em;
-    display: relative;
-    margin-right: 2em;
-    float: left;
-
-}
-
-
-
-
-.textos{
-    background: rgba(224, 224, 224, 0.15);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(7.4px);
-    -webkit-backdrop-filter: blur(7.4px);
-    border: 1px solid rgba(224, 224, 224, 1);
-    padding: 10px;
-    
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
