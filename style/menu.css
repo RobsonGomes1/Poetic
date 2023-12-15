@@ -64,41 +64,32 @@ body, html, ul, li{
   padding: 0px;
   list-style: none;
   font-size: 1.1em;
-
+  
 }
 
 body{
-  background-color: var(--color1);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,25,0,1) 100%);
 }
 
 header{
 
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 2px;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgba(100, 100, 100, 0.715);
+  margin-bottom: 20px;
+  background-color: rgba(31, 31, 31, 0.212);
   box-shadow: 3px 10px 19px -6px rgba(0,0,0,0.87);
   -webkit-box-shadow: 3px 10px 19px -6px rgba(0,0,0,0.87);
   -moz-box-shadow: 3px 10px 19px -6px rgba(0,0,0,0.87);
 }
 
 .logo a{
-  color: black;
+  color: rgb(255, 245, 245);
   text-decoration: none;
-  font-size: 1.4em;
+  font-size: 1.0em;
   
-}
-
-.logo p {
-  color: rgb(0, 0, 0);
-  font-size: 1.1em;
-  margin-top: 10px;
-  padding-left: 18px;
-  padding-bottom: 20px;
-  font-family: "AutumnFlowers";
-
 }
 
 .imglogo{
@@ -125,7 +116,7 @@ header{
 
 .menu li {
   margin-left: 20px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   
 }
 
@@ -134,7 +125,6 @@ header{
 
   display: block;
   padding: 18px;
-  background-color: var(--color2);
   border-radius: 50px;
   box-shadow: 3px 11px 8px -10px rgba(0,0,0,0.44);
   -webkit-box-shadow: 3px 11px 8px -10px rgba(0,0,0,0.44);
