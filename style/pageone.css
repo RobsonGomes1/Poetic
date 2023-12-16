@@ -27,7 +27,15 @@
     padding: 0;
 }
 
-  
+body, html, ul, li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.1em;
+    
+}
+
+
 
 .titlepg1 > #palavra1{
     margin-top: 5%;
