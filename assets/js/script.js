@@ -5,14 +5,14 @@ function menuShow (){
 
         menuMobile.classList.remove('open');
 
-        document.querySelector('.icon').src = "assets/icons/book-closed.svg" 
+        document.querySelector('.icon').src = "assets/icons/icon_menu.svg" 
 
     
     } 
     else {
 
         menuMobile.classList.add('open')
-        document.querySelector('.icon').src = "assets/icons/book-opened.svg" 
+        document.querySelector('.icon').src = "assets/icons/icon_menu.svg" 
 
     }
 }

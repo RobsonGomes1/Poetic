@@ -12,7 +12,7 @@
 
 header{
 
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(43,8,48,1) 53%, rgba(0,0,0,1) 100%);
+    background: transparent;
 
 }
 
@@ -129,7 +129,8 @@ header{
 
     .mobile-menu-icon button {
 
-        background-color: transparent;
+        background-color: white;
+        border-radius: 80px;
         border: none;
         cursor: pointer;
     }
