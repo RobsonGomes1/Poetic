@@ -6,12 +6,38 @@
     padding: 0;
 }
 
+:root{
+    
+    --color-back-page: rgba(26, 32, 23, 1);
+    --color-destaque: rgba(255, 239, 220, 1);
+    --color-normal:rgba(255, 219, 177, 1) ;
+}
+
+
 
 body{
-    background: rgb(34,34,34);
+
+    background-color: var(--color-back-page);
     background-repeat: no-repeat;
     background-clip: border-box;
-    background: linear-gradient(111deg, rgba(34,34,34,1) 0%, rgba(52,52,52,1) 100%);
     width: 100vw;
     height: 100vh; 
+
+}
+
+
+
+.poe-init{
+
+    color: var(--color-destaque);
+    padding-left: 80px;
+    padding-top: 80px;
+    justify-content: center;
+
+}
+
+.poe-init{
+
+    justify-content: center;
+    
 }
