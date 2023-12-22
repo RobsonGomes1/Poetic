@@ -33,11 +33,15 @@ body{
     padding-left: 80px;
     padding-top: 80px;
     justify-content: center;
-
+    font-size: 3rem;
 }
 
-.poe-init{
+.p-init{
 
     justify-content: center;
-    
+    padding-top: 10px;
+    transform: translate(15%, 50%);
+    color: var(--color-normal);
+    font-size: 1rem;
+
 }
