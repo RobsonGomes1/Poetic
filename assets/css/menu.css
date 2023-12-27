@@ -145,11 +145,12 @@ header{
 
     .nav-bar {
     
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 8rem;
     }
     .logo h1{
         text-align: left;
         left: 0.8rem;
+        font-size: 1.4em;
         position: absolute;
 
     }

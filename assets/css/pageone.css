@@ -28,7 +28,7 @@ body{
     background-clip: border-box;
     width: 100vw;
     height: 100vh; 
-
+    
 }
 
 
@@ -36,9 +36,8 @@ body{
 .poe-init{
 
     color: var(--color-destaque);
-    padding-left: 80px;
-    padding-top: 80px;
-    justify-content: center;
+    padding: 10px;
+    margin: 10px;
     font-size: 3rem;
     font-family: var(--fontdestaque);
     font-weight: 100;
@@ -46,59 +45,32 @@ body{
 
 .p-init{
 
-    justify-content: center;
-    margin-left: 180px;
-    padding-top: 10px;
+
     color: var(--color-normal);
     font-size: 1rem;
 
 }
 
 
-.obj-img1{
+.p-center p{
 
-    width: 120px;
-    height: 125px;
-    top: 18%;
-    left: 55%;
-    position: absolute;
-    border-radius: 80px;
-}
-
-
-
-
-
-
-
-@media  screen and (max-width:730px) {
-    
-
-    .poe-init{
-
-       flex-wrap: wrap;
-       padding: 2rem 2rem;
-       font-size: 0.8rem;
-        
-    }
-
-    .p-init{
-        
-        font-size: 0.8rem;
-        margin-left: 3em;
-        margin-top: -2rem;
-        flex-wrap: wrap;
-        text-align: left;
-        justify-content: center;
-
-    }
-
-
-    .obj-img1{
-        display: none;
-    }
-
-    
+    text-align: center;
+    color: var(--color-destaque);
+    font-size: 2em;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+
+
