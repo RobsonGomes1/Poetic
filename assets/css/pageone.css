@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 :root{
     
     --color-back-page: rgba(26, 32, 23, 1);
@@ -18,59 +19,18 @@
 
 @font-face {
     font-family:'perpetua-titling-mt';
-    src: url(/assets/fonts/perpetua-titling-mt-light.ttf);
+    src: url(assets/fonts/perpetua-titling-mt-light.ttf);
 }
+
+
 
 body{
 
     background-color: var(--color-back-page);
     background-repeat: no-repeat;
     background-clip: border-box;
-    width: 100vw;
-    height: 100vh; 
-    
-}
-
-
-
-.poe-init{
-
-    color: var(--color-destaque);
-    padding: 10px;
-    margin: 10px;
-    font-size: 3rem;
-    font-family: var(--fontdestaque);
-    font-weight: 100;
-}
-
-.p-init{
-
-
-    color: var(--color-normal);
-    font-size: 1rem;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
 
 }
-
-
-.p-center p{
-
-    text-align: center;
-    color: var(--color-destaque);
-    font-size: 2em;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-/* ------------------------------------------ */
-
-
-
