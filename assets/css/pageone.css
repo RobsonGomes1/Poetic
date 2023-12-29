@@ -36,10 +36,15 @@ body{
 }
 
 
+
 #backfooter{
- background-color: rgba(240, 248, 255, 0.353);
 
-
+    background: rgba(178, 178, 178, 0.43);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.6px);
+    -webkit-backdrop-filter: blur(2.6px);
+    border: 1px solid rgba(34, 31, 31, 0.76);
+    
 }
 
 
@@ -47,6 +52,7 @@ body{
 #textdestaque{
 
     color: var(--color-destaque);
+    text-decoration: none;
 }
 
 #textnormal{
@@ -54,5 +60,10 @@ body{
     color: var(--color-normal);
     text-decoration: none;
     
-    
+
+}
+
+#textnormal a:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
 }
