@@ -34,3 +34,25 @@ body{
     background-position: center;
 
 }
+
+
+#backfooter{
+ background-color: rgba(240, 248, 255, 0.353);
+
+
+}
+
+
+
+#textdestaque{
+
+    color: var(--color-destaque);
+}
+
+#textnormal{
+
+    color: var(--color-normal);
+    text-decoration: none;
+    
+    
+}
