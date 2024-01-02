@@ -1,30 +1,30 @@
 @charset "utf-8";
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-:root{
-    
+:root {
+
     --color-back-page: rgba(26, 32, 23, 1);
     --color-destaque: rgb(247, 239, 229);
-    --color-normal:rgba(255, 219, 177, 1) ;
+    --color-normal: rgba(255, 219, 177, 1);
 
-    --fontdestaque: "Perpetua-titling-mt" ;
+    --fontdestaque: "Perpetua-titling-mt";
 }
 
 @font-face {
-    font-family:'perpetua-titling-mt';
+    font-family: 'perpetua-titling-mt';
     src: url(assets/fonts/perpetua-titling-mt-light.ttf);
 }
 
 
 
-body{
+body {
 
     background-color: var(--color-back-page);
     background-repeat: no-repeat;
@@ -37,33 +37,85 @@ body{
 
 
 
-#backfooter{
+#backfooter {
 
     background: rgba(178, 178, 178, 0.43);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2.6px);
     -webkit-backdrop-filter: blur(2.6px);
     border: 1px solid rgba(34, 31, 31, 0.76);
-    
+
 }
 
 
 
-#textdestaque{
+#textdestaque {
 
     color: var(--color-destaque);
     text-decoration: none;
+    font-family: var(--fontdestaque);
 }
 
-#textnormal{
+#textnormal {
 
     color: var(--color-normal);
     text-decoration: none;
-    
+
 
 }
 
-#textnormal a:hover{
+#textnormal a:hover {
     color: rgb(255, 255, 255);
     transition: 0.8s;
 }
+
+
+.bk-img{
+
+    background-color: aliceblue;
+    width: 96%;
+    height: 400px;
+    padding:25px;
+    margin: 0 auto;
+    z-index: -1;
+    display: flex;
+
+}
+
+
+#img1poet{
+    background-image: url(../img/Carlos-Drummond.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    width: 92vw;
+    height: 98vh;
+}
+
+
+
+
+
+
+
+@media(max-widht:768px){
+
+    .bk-img{
+        width: 50vw;
+        height:50vh;
+    }
+
+    
+
+};
+
+@media(max-widht:320px) {
+
+    .bk-img {
+        width: 40vw;
+        height: 40vh;
+    }
+
+}
+
+;
