@@ -110,24 +110,3 @@ body {
 
 
 
-@media(max-widht:768px){
-
-    .bk-img{
-        width: 50vw;
-        height:50vh;
-    }
-
-    
-
-};
-
-@media(max-widht:320px) {
-
-    .bk-img {
-        width: 40vw;
-        height: 40vh;
-    }
-
-}
-
-;
