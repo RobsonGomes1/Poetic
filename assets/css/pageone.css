@@ -70,27 +70,39 @@ body {
 }
 
 
-.bk-img{
 
-    background-color: aliceblue;
-    width: 96%;
+/* backgroundconteudo */
+
+
+.bkimg1{
+
+    position: relative;
     height: 400px;
-    padding:25px;
-    margin: 0 auto;
-    z-index: -1;
-    display: flex;
+    background-color: aliceblue;
+    margin-top: 35px;
 
 }
 
 
-#img1poet{
-    background-image: url(../img/Carlos-Drummond.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    display: block;
-    width: 92vw;
-    height: 98vh;
+#img1{
+    background-color: aquamarine;
+    height: 200px;
+    width: 380px;
+    position: absolute;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
