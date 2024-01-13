@@ -18,7 +18,7 @@
 }
 
 @font-face {
-    font-family: 'perpetua-titling-mt';
+    font-family: "perpetua-titling-mt";
     src: url(assets/fonts/perpetua-titling-mt-light.ttf);
 }
 
@@ -74,19 +74,14 @@ body {
 /* backgroundconteudo */
 
 
-.bkimg1 {
 
-    position: relative;
-    height: 400px;
-    background-color: aliceblue;
-    margin-top: 35px;
+.bk-destaque{
+
+background-color: antiquewhite;
+width: 100vw;
+height: 400px;
+display: block;
 
 }
 
 
-#img1 {
-    background-color: aquamarine;
-    height: 200px;
-    width: 380px;
-    position: absolute;
-}
