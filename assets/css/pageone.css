@@ -32,20 +32,11 @@ body {
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
-
+    overflow-y: scroll !important;
+    overflow: hidden;
 }
 
 
-
-#backfooter {
-
-    background: rgba(178, 178, 178, 0.43);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2.6px);
-    -webkit-backdrop-filter: blur(2.6px);
-    border: 1px solid rgba(34, 31, 31, 0.76);
-
-}
 
 
 
@@ -71,17 +62,70 @@ body {
 
 
 
-/* backgroundconteudo */
+/* ------------------CONTEUDO1---------------------------- */
 
 
 
-.bk-destaque{
 
-background-color: antiquewhite;
-width: 100vw;
-height: 400px;
-display: block;
+
+
+
+
+
+
+
+
+/* ------------------CONTEUDO2---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* ---------Media Screen cards------------ */
+
+
+
+@media (max-width:380px) {
+
 
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------Footer--------------- */
+
+footer {
+
+    background-color: beige;
+}
+
+
+.footer-container {
+
+    width: 100%;
+    padding: 5px 20px 10px 20px;
+
+}
