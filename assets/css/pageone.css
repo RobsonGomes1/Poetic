@@ -65,67 +65,13 @@ body {
 /* ------------------CONTEUDO1---------------------------- */
 
 
+.txt-destaque {
 
-
-
-
-
-
-
-
-
-
-/* ------------------CONTEUDO2---------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-/* ---------Media Screen cards------------ */
-
-
-
-@media (max-width:380px) {
-
+    color: var(--color-destaque);
+    text-align: center;
+    margin: 50px;
+    font-size: 1.8rem;
+    font-family: var(--fontdestaque);
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ----------------Footer--------------- */
-
-footer {
-
-    background-color: beige;
-}
-
-
-.footer-container {
-
-    width: 100%;
-    padding: 5px 20px 10px 20px;
-
-}
